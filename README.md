@@ -42,3 +42,11 @@ In order to work, SCEDA needs a cryptographic hash function, so ScedaDigest is u
 ScedaDigest is a hashing function. Its result is 16 bytes long.
 
 ScedaDigest is used both inside SCEDA and by the provided demo SmallChat interfaces to generate the 16 bytes long key.
+
+## IANA Port Number and Service Name
+On 18th August 2015 IANA officially assigned the registered UDP port number 4412 to SmallChat, according to [RFC 6335](http://tools.ietf.org/html/rfc6335).
+
+The case-insensitive service name assigned to SmallChat is "smallchat".
+
+The list of all assigned ports is available here:
+https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt
